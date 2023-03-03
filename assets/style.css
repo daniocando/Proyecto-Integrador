@@ -29,7 +29,7 @@ header {
 }
 
 .logo {
-  width: 65%;
+  width: 8rem;
 }
 
 .navbar,
@@ -517,6 +517,22 @@ footer p {
   .info {
     margin: 1rem 0;
   }
+
+  .logo {
+    width: 5rem;
+  }
+
+  #about p {
+    width: 100%;
+    padding: 0 5px;
+  }
+  .icono {
+    width: 45px;
+  }
+
+  .info p {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -543,7 +559,7 @@ footer p {
   }
 
   .logo {
-    width: 5rem;
+    width: 4rem;
   }
 
   .carrito-icon {
