@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>NAID CLOTHING</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img src="./assets/logo.png" alt="logo" class="logo" />
+      </a>
+
+      <nav class="navbar">
+        <label for="menu-toggle" class="menu-label">
+          <img
+            src="./assets/iconos/menu.png"
+            alt="menu-hamburguesa"
+            class="menu-hamburguesa"
+          />
+        </label>
+        <input type="checkbox" id="menu-toggle" />
+
+        <ul class="navbar-list">
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#coleccion">Coleccion</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li>
+            <a href="login.html" target="_blank">Iniciar sesión</a>
+          </li>
+          <li><a href="registro.html">Registrarse</a></li>
+        </ul>
+        <img
+          src="./assets/shopping-bag.png"
+          alt="carrito"
+          class="carrito-icon"
+        />
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="hero-container">
+          <div class="hero-info">
+            <p>TEMPORADA 2023</p>
+
+            <a href="#coleccion">
+              <button class="boton-ver">Ver</button>
+            </a>
+          </div>
+
+          <img
+            src="./assets/DESIGN SYNDROME MANEQUIN POSTER MOCKUP FREE.png"
+            alt=""
+            class="hero-img"
+          />
+        </div>
+      </section>
+
+      <section id="paralax"></section>
+
+      <section id="about">
+        <h3 class="section-title-white">NOSOTROS</h3>
+        <p>
+          NAID es una marca de ropa Argentina creada en el 2022. Celebramos la
+          individualidad y la diversidad, ofreciendo prendas de alta calidad que
+          se adaptan a cualquier género y estilo de vida. Nuestras telas suaves
+          y duraderas garantizan comodidad y seguridad para expresarte en
+          cualquier ocasión.
+        </p>
+      </section>
+
+      <section id="coleccion">
+        <h3 class="section-title-black">COLECCIÓN</h3>
+        <div class="card-container">
+          <div class="cards">
+            <img src="./assets/remes/naid mockup3.png" alt="" class="remeras" />
+            <div class="remera-info">
+              <h3>NAID Y2K</h3>
+              <p>$4.000</p>
+              <p>3 cuotas sin interes de <span>$1.333,33</span></p>
+              <a href="#">Comprar</a>
+            </div>
+          </div>
+
+          <div class="cards">
+            <img src="./assets/remes/chrome.png" class="remeras" />
+            <div class="remera-info">
+              <h3>NAID Chrome</h3>
+              <p>$4.000</p>
+              <p>3 cuotas sin interes de <span>$1.333,33</span></p>
+              <a href="#">Comprar</a>
+            </div>
+          </div>
+
+          <div class="cards">
+            <img src="./assets/remes/night world.png" alt="" class="remeras" />
+            <div class="remera-info">
+              <h3>NAID World</h3>
+              <p>$4.000</p>
+              <p>3 cuotas sin interes de <span>$1.333,33</span></p>
+              <a href="#">Comprar</a>
+            </div>
+          </div>
+
+          <div class="cards">
+            <img src="./assets/remes/naid2.png" alt="" class="remeras" />
+            <div class="remera-info">
+              <h3>NAID Graffiti</h3>
+              <p>$4.000</p>
+              <p>3 cuotas sin interes de <span>$1.333,33</span></p>
+              <a href="#">Comprar</a>
+            </div>
+          </div>
+
+          <div class="cards">
+            <img
+              src="./assets/remes/OVERZISE TSHIRT MOCKUP 1 .png"
+              alt=""
+              class="remeras"
+            />
+            <div class="remera-info">
+              <h3>NAID Eyes</h3>
+              <p>$4.000</p>
+              <p>3 cuotas sin interes de <span>$1.333,33</span></p>
+              <a href="#">Comprar</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="seccion-informativa">
+        <div class="info-container">
+          <div class="info">
+            <img
+              src="./assets/iconos/camion.png"
+              alt="camion-de-envios"
+              class="icono"
+            />
+            <p>Envios a todo el pais</p>
+          </div>
+
+          <div class="info">
+            <img
+              src="./assets/iconos/tarjeta.png"
+              alt="tarjeta-de-pago"
+              class="icono"
+            />
+            <p>3 cuotas sin interes</p>
+          </div>
+
+          <div class="info">
+            <img src="./assets/iconos/escudo.png" alt="escudo" class="icono" />
+            <p>Compras 100% pretegidas</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <div class="contacto-container">
+          <h3 class="section-title-black">CONTACTO</h3>
+          <div class="form-container">
+            <form
+              action="mailto:danielaocando1994@gmail.com"
+              method="post"
+              enctype="text/plain"
+              class="formulario"
+            >
+              <div class="form-inputs">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" required />
+              </div>
+              <div class="form-inputs">
+                <label for="mail">Email</label>
+                <input type="text" id="mail" required />
+              </div>
+
+              <div class="form-inputs">
+                <label for="telefono">Telefono</label>
+                <input type="text" id="telefono" required />
+              </div>
+
+              <div class="form-inputs">
+                <label for="mensaje">Mensaje</label>
+                <textarea
+                  name="Mensaje"
+                  id="mensaje"
+                  cols="30"
+                  rows="10"
+                  required
+                ></textarea>
+              </div>
+
+              <input type="submit" value="ENVIAR" class="boton-input" />
+            </form>
+            <div class="iframe-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26287.39550893943!2d-58.46829562027114!3d-34.555468500195865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d28526611d%3A0xbcb585a9ddc70069!2sBelgrano%2C%20CABA!5e0!3m2!1ses!2sar!4v1677113474482!5m2!1ses!2sar"
+                width="400"
+                height="500"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="redes">
+        <a href="https://www.instagram.com/daniiocando/" target="_blank">
+          <img
+            src="./assets/iconos/instagram.png"
+            alt="instagran-icon"
+            class="footer-icono"
+          />
+        </a>
+
+        <a href="mailto:danielaocando1994@gmail.com" target="_blank">
+          <img
+            src="./assets/iconos/correo.png"
+            alt="correo-icono"
+            class="footer-icono"
+        /></a>
+      </div>
+
+      <div class="tarjetas">
+        <img
+          src="./assets/tarjetas de pago/amex@2x.png"
+          alt="amex"
+          class="tarjeta"
+        />
+        <img
+          src="./assets/tarjetas de pago/mastercard@2x.png"
+          alt="mastercard"
+          class="tarjeta"
+        />
+
+        <img
+          src="./assets/tarjetas de pago/argencard@2x.png"
+          alt="banelco"
+          class="tarjeta"
+        />
+        <img
+          src="./assets/tarjetas de pago/cabal@2x.png"
+          alt="argencard"
+          class="tarjeta"
+        />
+
+        <img
+          src="./assets/tarjetas de pago/argencard@2x.png"
+          alt="argencard"
+          class="tarjeta"
+        />
+        <img
+          src="./assets/tarjetas de pago/diners@2x.png"
+          alt="diners"
+          class="tarjeta"
+        />
+        <img
+          src="./assets/tarjetas de pago/mercadopago@2x.png"
+          alt="mercado"
+          class="tarjeta"
+        />
+
+        <img
+          src="./assets/tarjetas de pago/paypal@2x.png"
+          alt="paypal"
+          class="tarjeta"
+        />
+
+        <img
+          src="./assets/tarjetas de pago/tarjeta-naranja@2x.png"
+          alt="naranja"
+          class="tarjeta"
+        />
+        <img
+          src="./assets/tarjetas de pago/tarjeta-shopping@2x.png"
+          alt="shopping"
+          class="tarjeta"
+        />
+      </div>
+      <p>©Copyright NAID - 2023</p>
+      <p>Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
